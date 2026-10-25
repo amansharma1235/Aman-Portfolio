@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aman Sharma — Flutter Developer & Mobile App Engineer</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Portfolio of Aman Sharma — Passionate Flutter & Dart Developer specializing in responsive mobile apps, REST API integration, Firebase backends, and clean UI architecture.">
+  <meta name="keywords" content="Aman Sharma, Flutter Developer, Dart, Mobile App Developer, Firebase, Android Studio, Lucknow, India, StudyMate, Aakriti Ultrasound">
+  <meta name="author" content="Aman Sharma">
+  <meta name="theme-color" content="#070b16">
+  
+  <meta property="og:title" content="Aman Sharma — Flutter Developer Portfolio">
+  <meta property="og:description" content="Explore Flutter apps, responsive UIs, StudyMate student companion, healthcare platforms, and professional resume.">
+  <meta property="og:image" content="assets/hero.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aman Sharma",
+    "jobTitle": "Flutter Developer",
+    "email": "mailto:amansharma274502@gmail.com",
+    "telephone": "+919519701963",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lucknow",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://github.com/amansharma1235",
+      "https://www.linkedin.com/in/aman-sharma-85278b357",
+      "https://www.instagram.com/its.me.amanpy"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Reading Progress Bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Ambient Background Gradients & Grid Pattern -->
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="ambient-blob ambient-blob-1"></div>
+    <div class="ambient-blob ambient-blob-2"></div>
+    <div class="ambient-blob ambient-blob-3"></div>
+  </div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Aman Sharma Home">
+        <div class="brand-icon-box">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <span>Aman <span class="gradient-text">Sharma</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#experience" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark/Light theme" title="Toggle theme">☀️</button>
+        <a href="assets/Aman_Sharma_CV.pdf" download="Aman_Sharma_CV.pdf" class="btn btn-primary btn-sm" title="Download Verified CV">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Text & CTAs -->
+        <div class="hero-content reveal">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            <span>Open to Flutter Roles &amp; Opportunities</span>
+          </div>
+
+          <div class="hero-role-badge">Flutter Developer · Mobile App Engineer</div>
+          <h1 class="hero-title">
+            Hi, I’m <span class="gradient-text">Aman Sharma</span>
+          </h1>
+
+          <h2 class="hero-headline">Building Beautiful and Functional Mobile Experiences with Flutter</h2>
+
+          <div class="hero-typewriter-wrap">
+            <span>Specializing in</span>
+            <span class="typewriter-text" id="typewriter-text"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            I am a passionate Flutter Developer based in Lucknow, crafting clean, responsive cross-platform applications with Flutter &amp; Dart. I turn complex UI designs into modular widget architectures, integrate RESTful APIs, manage SQLite local persistence, and connect Firebase backend services.
+          </p>
+
+          <!-- Small Technology Labels as requested in Prompt -->
+          <div class="hero-tech-chips" aria-label="Core Technologies">
+            <span class="tech-chip"><span class="tech-chip-icon">💙</span> Flutter 3.x</span>
+            <span class="tech-chip"><span class="tech-chip-icon">🎯</span> Dart</span>
+            <span class="tech-chip"><span class="tech-chip-icon">🔥</span> Firebase</span>
+            <span class="tech-chip"><span class="tech-chip-icon">⚡</span> REST APIs</span>
+            <span class="tech-chip"><span class="tech-chip-icon">💾</span> SQLite</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>Explore Projects</span>
+            </a>
+
+            <a href="assets/Aman_Sharma_CV.pdf" download="Aman_Sharma_CV.pdf" class="btn btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact Me</span>
+            </a>
+
+            <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="btn btn-secondary" title="GitHub Profile">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://wa.me/919519701963" target="_blank" rel="noopener" class="btn btn-secondary" title="Direct WhatsApp">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Quick Facts Row -->
+          <div class="hero-facts-row">
+            <span class="fact-badge">🎓 <strong>Diploma CSE</strong> · MMIT 2026 (73.5%)</span>
+            <span class="fact-badge">💼 <strong>6 Months Experience</strong> · Flutter Dev</span>
+            <span class="fact-badge">🔥 <strong>Firebase</strong> &amp; REST APIs</span>
+            <span class="fact-badge">📍 <strong>Aliganj</strong>, Lucknow, UP</span>
+          </div>
+        </div>
+
+        <!-- COMPACT RESPONSIVE PHOTO SHOWCASE -->
+        <div class="hero-photo-container reveal">
+          <div class="photo-card-wrapper">
+            <div class="photo-inner-box">
+              <img src="assets/hero.jpg" alt="Aman Sharma - Flutter Developer in professional attire" class="hero-profile-img" width="270" height="270">
+            </div>
+
+            <!-- Floating Micro-Badges -->
+            <div class="floating-chip chip-flutter" title="Flutter Specialist">
+              <div class="chip-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path d="M14.3 2.1L3.9 12.5l3.2 3.2L20.7 2.1H14.3zm0 8.5l-5.3 5.3 5.3 5.3h6.4l-5.3-5.3 5.3-5.3h-6.4z" fill="#02569B"/>
+                  <path d="M14.3 10.6l-5.3 5.3 3.2 3.2 5.3-5.3h-3.2z" fill="#0175C2"/>
+                  <path d="M12.2 19.1l2.1 2.1h6.4l-5.3-5.3-3.2 3.2z" fill="#29B6F6"/>
+                </svg>
+              </div>
+              <span>Flutter 3.x</span>
+            </div>
+
+            <div class="floating-chip chip-intern" title="Practical Experience">
+              <span style="font-size: 1rem;">💼</span>
+              <span>6 Months Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECH MARQUEE / TICKER
+         ========================================================================== -->
+    <div class="marquee-wrapper" aria-hidden="true">
+      <div class="marquee-content">
+        <div class="marquee-item"><span class="icon">✦</span> Flutter 3.x</div>
+        <div class="marquee-item"><span class="icon">✦</span> Dart Language</div>
+        <div class="marquee-item"><span class="icon">✦</span> Riverpod State Management</div>
+        <div class="marquee-item"><span class="icon">✦</span> Firebase Authentication</div>
+        <div class="marquee-item"><span class="icon">✦</span> Cloud Firestore</div>
+        <div class="marquee-item"><span class="icon">✦</span> SQLite Offline Storage</div>
+        <div class="marquee-item"><span class="icon">✦</span> REST API Integration</div>
+        <div class="marquee-item"><span class="icon">✦</span> JSON Serialization</div>
+        <div class="marquee-item"><span class="icon">✦</span> Android Studio</div>
+        <div class="marquee-item"><span class="icon">✦</span> VS Code</div>
+        <div class="marquee-item"><span class="icon">✦</span> Git &amp; GitHub</div>
+        <div class="marquee-item"><span class="icon">✦</span> Responsive UI / Widgets</div>
+        <div class="marquee-item"><span class="icon">✦</span> Clean Code Architecture</div>
+        <!-- Duplicated for seamless loop -->
+        <div class="marquee-item"><span class="icon">✦</span> Flutter 3.x</div>
+        <div class="marquee-item"><span class="icon">✦</span> Dart Language</div>
+        <div class="marquee-item"><span class="icon">✦</span> Riverpod State Management</div>
+        <div class="marquee-item"><span class="icon">✦</span> Firebase Authentication</div>
+        <div class="marquee-item"><span class="icon">✦</span> Cloud Firestore</div>
+        <div class="marquee-item"><span class="icon">✦</span> SQLite Offline Storage</div>
+        <div class="marquee-item"><span class="icon">✦</span> REST API Integration</div>
+        <div class="marquee-item"><span class="icon">✦</span> JSON Serialization</div>
+        <div class="marquee-item"><span class="icon">✦</span> Android Studio</div>
+        <div class="marquee-item"><span class="icon">✦</span> VS Code</div>
+        <div class="marquee-item"><span class="icon">✦</span> Git &amp; GitHub</div>
+        <div class="marquee-item"><span class="icon">✦</span> Responsive UI / Widgets</div>
+        <div class="marquee-item"><span class="icon">✦</span> Clean Code Architecture</div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-eyebrow">01 / Profile &amp; Mission</div>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Turning creative ideas into high-performance digital solutions across mobile and web platforms.</p>
+
+        <div class="about-grid">
+          <!-- Featured Professional Banner Card -->
+          <div class="about-banner-card reveal gallery-thumb-item" title="Click to view full banner in Lightbox">
+            <img src="assets/about.jpg" alt="Aman Sharma - Turning Ideas into Digital Solutions" loading="lazy">
+            <div class="about-banner-badge" aria-hidden="true">
+              <span>🔍 Click to enlarge</span>
+            </div>
+            <div class="gallery-thumb-caption" style="display: none;">Aman Sharma — Turning Ideas into Digital Solutions</div>
+          </div>
+
+          <!-- Split Content & Narrative -->
+          <div class="about-content-split">
+            <!-- Left Narrative -->
+            <div class="about-story reveal">
+              <p style="font-size: 1.08rem; color: var(--text-primary); font-weight: 500; line-height: 1.75;">
+                I am a passionate <strong>Flutter Developer &amp; Mobile App Engineer</strong> based in <strong>Aliganj, Lucknow</strong>, dedicated to writing clean, maintainable code and engineering seamless user experiences.
+              </p>
+
+              <p>
+                During my <strong>6-month Flutter Developer Internship</strong> at <strong>Digi Coders Technologies Pvt. Ltd.</strong>, I built responsive, multi-screen mobile applications with modular reusable widgets, integrated RESTful APIs with clean state management, and optimized app rendering cycles for high-frame-rate smoothness.
+              </p>
+
+              <div class="about-highlight-box">
+                <h4 style="margin-bottom: 6px; font-size: 1.02rem; color: var(--text-primary);">🎯 Career Objective &amp; Engineering Philosophy</h4>
+                <p style="font-size: 0.94rem; margin: 0; line-height: 1.65;">
+                  To engineer scalable, production-grade mobile applications, collaborate closely with forward-thinking development teams, and continuously elevate my technical craftsmanship across modern mobile, cloud, and cross-platform ecosystems.
+                </p>
+              </div>
+
+              <div>
+                <h4 style="margin-bottom: 10px; font-size: 0.95rem; color: var(--text-primary);">💡 Core Strengths &amp; Soft Skills</h4>
+                <div class="soft-skills-cluster">
+                  <span class="soft-chip">⚡ Quick Learner</span>
+                  <span class="soft-chip">🧩 Problem Solving</span>
+                  <span class="soft-chip">🤝 Team Collaboration</span>
+                  <span class="soft-chip">🗣️ Clear Communication</span>
+                  <span class="soft-chip">⏱️ Time Management</span>
+                  <span class="soft-chip">🔍 Attention to Detail</span>
+                  <span class="soft-chip">🔄 Adaptability</span>
+                  <span class="soft-chip">🌐 Hindi &amp; English (Bilingual)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Education, Training & Metrics -->
+            <div class="reveal" style="display: flex; flex-direction: column; gap: 18px;">
+              <div class="card" style="padding: 22px; border-radius: var(--radius-md); background: var(--card-bg); border: 1px solid var(--card-border);">
+                <div style="font-size: 0.78rem; font-weight: 700; color: var(--accent-purple); text-transform: uppercase; margin-bottom: 6px;">Education</div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 4px; color: var(--text-primary);">Diploma in Computer Science &amp; Engineering</h4>
+                <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 10px;">Mahamaya IT Polytechnic, Kushinagar · 2026 · <strong style="color:var(--text-primary);">73.5%</strong></p>
+
+                <div style="border-top: 1px solid var(--card-border); padding-top: 10px; margin-top: 10px;">
+                  <h5 style="font-size: 0.95rem; margin-bottom: 2px; color: var(--text-primary);">High School (UP Board)</h5>
+                  <p style="font-size: 0.86rem; color: var(--text-muted); margin: 0;">2023 · <strong style="color:var(--text-primary);">83.5% First Class</strong></p>
+                </div>
+              </div>
+
+              <div class="card" style="padding: 22px; border-radius: var(--radius-md); background: var(--card-bg); border: 1px solid var(--card-border);">
+                <div style="font-size: 0.78rem; font-weight: 700; color: var(--accent-blue); text-transform: uppercase; margin-bottom: 6px;">Experience (6 Months)</div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 4px; color: var(--text-primary);">Flutter Developer Intern</h4>
+                <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0 0 10px;">Digi Coders Technologies Pvt. Ltd. · 6 Months Practical Experience</p>
+
+                <div style="border-top: 1px solid var(--card-border); padding-top: 10px; margin-top: 10px;">
+                  <div style="font-size: 0.75rem; font-weight: 700; color: var(--accent-emerald); text-transform: uppercase; margin-bottom: 4px;">Summer Training</div>
+                  <h5 style="font-size: 0.95rem; margin-bottom: 2px; color: var(--text-primary);">PHP &amp; Database Summer Training</h5>
+                  <p style="font-size: 0.84rem; color: var(--text-muted); margin: 0;">DigiCoders Technologies Pvt. Ltd. · June – July 2025</p>
+                </div>
+              </div>
+
+              <!-- Stats Bar -->
+              <div class="about-key-stats" style="margin-top: 4px;">
+                <div class="stat-box">
+                  <div class="stat-number">6 Mo</div>
+                  <div class="stat-label">Hands-on Exp.</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number">10+</div>
+                  <div class="stat-label">Screens &amp; Apps</div>
+                </div>
+                <div class="stat-box">
+                  <div class="stat-number">73.5%</div>
+                  <div class="stat-label">Diploma Score</div>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 12px; margin-top: 6px; flex-wrap: wrap;">
+                <a href="assets/Aman_Sharma_CV.pdf" download class="btn btn-primary" style="flex: 1;">
+                  <span>Download Full CV (PDF)</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary" style="flex: 1;">
+                  <span>Get in Touch</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS SECTION
+         ========================================================================== -->
+    <section class="section" id="projects" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-eyebrow">02 / Portfolio Work</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real mobile and web applications built from scratch with clean code, modern UX, and production-ready architectures.</p>
+
+        <!-- ====================================================================
+             PROJECT 1: Aakriti Ultrasound (Healthcare Diagnostic Services)
+             ==================================================================== -->
+        <article class="featured-project-card reveal">
+          <div class="project-card-header">
+            <div class="project-title-area">
+              <div class="project-brand-badge" style="background: rgba(34, 197, 94, 0.1); color: #22c55e;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 style="font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-bottom: 2px;">
+                  Aakriti Ultrasound — Diagnostic Healthcare Platform
+                </h3>
+                <span style="font-size: 0.9rem; color: var(--accent-emerald); font-weight: 600;">
+                  Patient-Centric Medical Diagnostic &amp; Clinic Consultation Web Portal
+                </span>
+              </div>
+            </div>
+            <span class="project-badge-tag" style="background: rgba(34, 197, 94, 0.15); color: #22c55e;">🏥 Featured Production Project</span>
+          </div>
+
+          <div class="project-metrics-row">
+            <span class="project-metric-pill success">🟢 Live Production Web App</span>
+            <span class="project-metric-pill">🩺 Doctor &amp; Specialist Directory</span>
+            <span class="project-metric-pill">🌓 Clinical Dual Themes</span>
+            <span class="project-metric-pill">🛡️ Dedicated Backend Repository</span>
+          </div>
+
+          <p class="project-description">
+            <strong>Aakriti Ultrasound</strong> is a production-grade digital healthcare platform engineered for an advanced diagnostic ultrasound center. It streamlines clinical service discovery, patient test preparation, doctor credential exploration, and direct appointment scheduling. Designed with high-reliability patient communication channels (1-tap WhatsApp consultation, 24/7 emergency hotline, and live Google Maps clinic routing) and maintained with a dedicated backend repository.
+          </p>
+
+          <div class="project-features-list">
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Specialist Medical Directory:</strong> Searchable radiologist and consultant catalog with specialization filters and consultation hours.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Clinical Dual Theming:</strong> Medical-grade Dark &amp; Light UI engineered for high readability in diagnostic clinic lighting.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Zero-Friction Patient Support:</strong> One-tap emergency hotline, WhatsApp instant appointment booking, and GPS clinic navigation.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Diagnostic Scan Procedures:</strong> Clear prep instructions, test requirements, and reporting guidelines for patients.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Settings &amp; Clinic Alerts:</strong> User preference management, theme persistence, and real-time operational notifications.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Robust Backend Integration:</strong> Structured API repository maintaining clinic diagnostic endpoints and service records.</span>
+            </div>
+          </div>
+
+          <!-- Screenshot Gallery -->
+          <div class="gallery-wrapper">
+            <div class="gallery-label">
+              <span>🩺 Real app screenshots (click to preview full-screen in Lightbox)</span>
+              <span>Scroll horizontally →</span>
+            </div>
+
+            <div class="gallery-scroll" tabindex="0" aria-label="Aakriti Ultrasound Screenshots">
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-home-dark.jpg" alt="Aakriti Ultrasound Home Dark Theme" loading="lazy">
+                <div class="gallery-thumb-caption">Home · Dark Mode</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-home-light.jpg" alt="Aakriti Ultrasound Home Light Theme" loading="lazy">
+                <div class="gallery-thumb-caption">Home · Light Mode</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-doctors.jpg" alt="Doctors Directory Screen" loading="lazy">
+                <div class="gallery-thumb-caption">Doctors Directory</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-help.jpg" alt="Help and Support Screen" loading="lazy">
+                <div class="gallery-thumb-caption">Help &amp; Emergency Support</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-settings.jpg" alt="Settings Screen" loading="lazy">
+                <div class="gallery-thumb-caption">Settings Panel</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/shot-splash.jpg" alt="Aakriti Ultrasound Splash Screen" loading="lazy">
+                <div class="gallery-thumb-caption">Splash Screen</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tags-row">
+            <span class="tech-tag">Web Deployment</span>
+            <span class="tech-tag">RESTful APIs</span>
+            <span class="tech-tag">Healthcare UX</span>
+            <span class="tech-tag">Responsive Design</span>
+            <span class="tech-tag">Backend Node Repo</span>
+            <span class="tech-tag">Firebase Web</span>
+          </div>
+
+          <div class="project-action-btns">
+            <a href="https://aakriti-ultrasound.web.app/" target="_blank" rel="noopener" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span>Launch Live Healthcare Portal 🏥</span>
+            </a>
+            <a href="https://github.com/amansharma1235/Aakriti_backend" target="_blank" rel="noopener" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+              </svg>
+              <span>Backend API Repository 📂</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ====================================================================
+             PROJECT 2: StudyMate (Student Helper & Smart Planner)
+             ==================================================================== -->
+        <article class="featured-project-card reveal">
+          <div class="project-card-header">
+            <div class="project-title-area">
+              <div class="project-brand-badge" title="StudyMate Icon">
+                <img src="assets/studymate-logo.png" alt="StudyMate Logo" loading="lazy">
+              </div>
+              <div>
+                <h3 style="font-size: clamp(1.4rem, 2.5vw, 1.85rem); margin-bottom: 2px;">
+                  StudyMate — Student Helper &amp; Smart Study Planner
+                </h3>
+                <span style="font-size: 0.9rem; color: var(--accent-blue); font-weight: 600;">
+                  Study · Plan · Achieve — Learn · Plan · Grow
+                </span>
+              </div>
+            </div>
+            <span class="project-badge-tag">🌟 Flagship Mobile Project</span>
+          </div>
+
+          <div class="project-metrics-row">
+            <span class="project-metric-pill success">🟢 Live Production App</span>
+            <span class="project-metric-pill">📱 Flutter 3.x Web &amp; Mobile</span>
+            <span class="project-metric-pill">⚡ Riverpod State Management</span>
+            <span class="project-metric-pill">💾 Offline SQLite Caching</span>
+          </div>
+
+          <p class="project-description">
+            <strong>StudyMate</strong> is a comprehensive productivity and academic companion application engineered with Flutter &amp; Dart. Built to help students overcome study fatigue, structure daily learning routines, and achieve peak academic focus with a distraction-free Pomodoro timer and real-time goal tracking.
+          </p>
+
+          <!-- Core Features Grid -->
+          <div class="project-features-list">
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Pomodoro Timer with Strict Mode:</strong> 25-minute focus countdown with session counter, "Strict Mode" (leaving app withers tree 🥀), and ambient concentration soundscapes (Rain, etc.).</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Categorized Notes &amp; Instant Search:</strong> Lecture notes organizer with dynamic category filtering (All, General, Computer Science) and real-time search.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Tasks &amp; Homework Planner:</strong> Structured assignment manager with segmented filters (All, Today, Upcoming, Done) and quick-add actions.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Study Activity Matrix (Heatmap):</strong> GitHub-style interactive daily contribution heatmap tracking logged study hours and active streaks.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Cloud Sync &amp; Offline Persistence:</strong> Firebase Cloud Firestore sync + offline SQLite caching for uninterrupted study workflows.</span>
+            </div>
+            <div class="feature-item">
+              <span class="icon">✔</span>
+              <span><strong>Security &amp; Privacy:</strong> Native App Lock with Passcode protection 🔒 and one-click JSON data export.</span>
+            </div>
+          </div>
+
+          <!-- Interactive Screenshot Gallery -->
+          <div class="gallery-wrapper">
+            <div class="gallery-label">
+              <span>📱 Click any screenshot to view full-size in Lightbox</span>
+              <span>Scroll horizontally →</span>
+            </div>
+
+            <div class="gallery-scroll" tabindex="0" aria-label="StudyMate App Screenshots">
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-home.png" alt="StudyMate Dashboard Home Screen" loading="lazy">
+                <div class="gallery-thumb-caption">1. Dashboard &amp; 120m Goal</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-pomodoro.png" alt="StudyMate Pomodoro Timer with Strict Mode and Soundscape" loading="lazy">
+                <div class="gallery-thumb-caption">2. Pomodoro Focus Timer</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-notes.png" alt="StudyMate My Notes Categorized Screen" loading="lazy">
+                <div class="gallery-thumb-caption">3. Notes &amp; Category Search</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-tasks.png" alt="StudyMate Tasks and Homework Manager" loading="lazy">
+                <div class="gallery-thumb-caption">4. Tasks &amp; Homework</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-profile.png" alt="StudyMate Student Profile and Study Activity Heatmap" loading="lazy">
+                <div class="gallery-thumb-caption">5. Study Activity Matrix</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-settings.png" alt="StudyMate Security, Passcode Lock and Export" loading="lazy">
+                <div class="gallery-thumb-caption">6. App Lock &amp; JSON Export</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+
+              <div class="gallery-thumb-item" title="Click to enlarge">
+                <img src="assets/studymate-splash.png" alt="StudyMate Welcome Splash Screen" loading="lazy">
+                <div class="gallery-thumb-caption">7. Welcome &amp; Onboarding</div>
+                <div class="zoom-indicator">🔍</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tech Tags -->
+          <div class="tags-row">
+            <span class="tech-tag">Flutter 3.x</span>
+            <span class="tech-tag">Dart</span>
+            <span class="tech-tag">Riverpod State</span>
+            <span class="tech-tag">Pomodoro Timer</span>
+            <span class="tech-tag">Strict Focus Mode</span>
+            <span class="tech-tag">Ambient Soundscape</span>
+            <span class="tech-tag">Activity Heatmap</span>
+            <span class="tech-tag">Cloud Firestore</span>
+            <span class="tech-tag">Offline SQLite</span>
+            <span class="tech-tag">Passcode Lock 🔒</span>
+            <span class="tech-tag">JSON Data Export</span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="project-action-btns">
+            <a href="https://study-mate-aman-123d.vercel.app/" target="_blank" rel="noopener" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+              </svg>
+              <span>Launch Live Web App 🚀</span>
+            </a>
+
+            <a href="https://github.com/amansharma1235/Study_mate" target="_blank" rel="noopener" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+              </svg>
+              <span>GitHub Repository</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ====================================================================
+             MORE PROJECTS GRID WITH FILTER & SEARCH
+             ==================================================================== -->
+        <div style="margin-top: 50px;">
+          <h3 style="font-size: 1.6rem; margin-bottom: 8px;">Explore All Projects</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 24px;">Filter by tech stack or search keywords.</p>
+
+          <div class="filter-tabs-row">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="flutter">Flutter &amp; Dart</button>
+            <button class="filter-btn" data-filter="web">Web &amp; Backend</button>
+
+            <div class="search-input-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="project-search" placeholder="Search projects by title or tech...">
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project: AS Mart E-Commerce -->
+            <article class="project-card reveal" data-category="flutter">
+              <div class="project-card-top">
+                <span class="tech-tag" style="margin-bottom: 12px;">Flutter · Mobile</span>
+                <h3>AS Mart E-Commerce App</h3>
+                <p>
+                  A feature-packed online shopping mobile application featuring clean product catalogs, promotional banners, shopping cart state management, user authentication, and responsive screen navigation.
+                </p>
+                <div class="tags-row">
+                  <span class="tech-tag">Flutter</span>
+                  <span class="tech-tag">Dart</span>
+                  <span class="tech-tag">Firebase Auth</span>
+                  <span class="tech-tag">Cloud Firestore</span>
+                </div>
+              </div>
+              <div class="project-action-btns" style="margin-top: 18px;">
+                <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Project: Flutter Reusable UI Components -->
+            <article class="project-card reveal" data-category="flutter">
+              <div class="project-card-top">
+                <span class="tech-tag" style="margin-bottom: 12px;">Flutter · UI Components</span>
+                <h3>Flutter UI &amp; Widget System</h3>
+                <p>
+                  A curated collection of production-grade reusable Flutter widgets, customizable app bars, animated bottom sheets, responsive forms, and stateful interaction patterns.
+                </p>
+                <div class="tags-row">
+                  <span class="tech-tag">Flutter</span>
+                  <span class="tech-tag">Dart</span>
+                  <span class="tech-tag">Widgets</span>
+                  <span class="tech-tag">AnimationController</span>
+                </div>
+              </div>
+              <div class="project-action-btns" style="margin-top: 18px;">
+                <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Project: Responsive Student Dashboard -->
+            <article class="project-card reveal" data-category="web">
+              <div class="project-card-top">
+                <span class="tech-tag" style="margin-bottom: 12px;">Web · Frontend</span>
+                <h3>Responsive Student Dashboard</h3>
+                <p>
+                  An adaptive student learning analytics dashboard that seamlessly adjusts across mobiles, tablets, and desktops with interactive study metrics and timetable tracking.
+                </p>
+                <div class="tags-row">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Flexbox / Grid</span>
+                </div>
+              </div>
+              <div class="project-action-btns" style="margin-top: 18px;">
+                <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+                  <span>View on GitHub</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS & TECHNOLOGIES
+         ========================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-eyebrow">03 / Capabilities</div>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">A breakdown of my technical proficiency, engineering toolbelt, and technologies I work with daily.</p>
+
+        <div class="skills-grid">
+          <!-- Category 1: Mobile Development -->
+          <div class="skill-category-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">📱</div>
+              <div>
+                <h3 style="font-size: 1.2rem;">Mobile Development</h3>
+                <span style="font-size: 0.82rem; color: var(--accent-blue);">Core Specialization</span>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-pill">Flutter</span>
+              <span class="skill-pill">Dart</span>
+              <span class="skill-pill">Flutter 3.x</span>
+              <span class="skill-pill">Widget Architecture</span>
+              <span class="skill-pill">Reusable Components</span>
+              <span class="skill-pill">Screen Navigation</span>
+              <span class="skill-pill">Responsive Mobile UI</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend and APIs -->
+          <div class="skill-category-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" style="background: rgba(99, 102, 241, 0.12); color: var(--accent-indigo);">⚡</div>
+              <div>
+                <h3 style="font-size: 1.2rem;">Backend and APIs</h3>
+                <span style="font-size: 0.82rem; color: var(--accent-indigo);">Data &amp; Endpoints</span>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">JSON Serialization</span>
+              <span class="skill-pill">HTTP Status Handling</span>
+              <span class="skill-pill">API Debugging</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Database and Services -->
+          <div class="skill-category-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" style="background: rgba(245, 158, 11, 0.12); color: var(--accent-amber);">🗄️</div>
+              <div>
+                <h3 style="font-size: 1.2rem;">Database &amp; Services</h3>
+                <span style="font-size: 0.82rem; color: var(--accent-amber);">Cloud &amp; Relational</span>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-pill">Firebase</span>
+              <span class="skill-pill">Cloud Firestore</span>
+              <span class="skill-pill">Firebase Auth</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">SQLite / sqflite</span>
+              <span class="skill-pill">Data Modeling</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Web Fundamentals -->
+          <div class="skill-category-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" style="background: rgba(16, 185, 129, 0.12); color: var(--accent-emerald);">🌐</div>
+              <div>
+                <h3 style="font-size: 1.2rem;">Web Fundamentals</h3>
+                <span style="font-size: 0.82rem; color: var(--accent-emerald);">Frontend Standards</span>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">CSS Flexbox / Grid</span>
+              <span class="skill-pill">DOM APIs</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Tools -->
+          <div class="skill-category-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-card-icon" style="background: rgba(168, 85, 247, 0.12); color: var(--accent-purple);">🛠️</div>
+              <div>
+                <h3 style="font-size: 1.2rem;">Tools &amp; Workflow</h3>
+                <span style="font-size: 0.82rem; color: var(--accent-purple);">Development Suite</span>
+              </div>
+            </div>
+            <div class="skill-chips-wrap">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Android Studio</span>
+              <span class="skill-pill">Mobile Emulators</span>
+              <span class="skill-pill">DevTools &amp; Logcat</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES / WHAT I CAN BUILD
+         ========================================================================== -->
+    <section class="section" id="services" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-eyebrow">04 / Services</div>
+        <h2 class="section-title">What I Can Build For Your Team</h2>
+        <p class="section-subtitle">How I can add immediate value as a Flutter Developer to your product engineering cycle.</p>
+
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <div class="service-icon-box">🎨</div>
+            <h3>Responsive Flutter Mobile UIs</h3>
+            <p>
+              Transform Figma/XD designs or client requirements into pixel-perfect Flutter screens with reusable widgets and smooth screen transitions across all screen sizes.
+            </p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon-box" style="background: linear-gradient(135deg, #0284c7, #2563eb);">🔗</div>
+            <h3>REST API &amp; JSON Handling</h3>
+            <p>
+              Connect frontend interfaces cleanly to backend HTTP endpoints, serialize complex JSON structures safely, handle network errors, and show user-friendly states.
+            </p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon-box" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">⚡</div>
+            <h3>Firebase &amp; Offline Sync</h3>
+            <p>
+              Integrate Firebase Auth, Firestore real-time updates, Cloud Storage, and SQLite local database caching for snappy, offline-first mobile experiences.
+            </p>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-icon-box" style="background: linear-gradient(135deg, #059669, #10b981);">🐛</div>
+            <h3>Debugging &amp; Code Refactoring</h3>
+            <p>
+              Identify and fix runtime errors, resolve layout overflow glitches, optimize widget build cycles, and refactor code into clean, scalable architecture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         RESUME SECTION
+         ========================================================================== -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="section-eyebrow">05 / Credentials</div>
+        <h2 class="section-title">Curriculum Vitae / Resume</h2>
+        <p class="section-subtitle">Verified professional resume highlighting Flutter development capabilities, practical internship experience, and academic foundation.</p>
+
+        <div class="resume-showcase-card reveal">
+          <div class="resume-card-left">
+            <div>
+              <div class="resume-badge-verified">
+                <span>✓</span>
+                <span>Verified Candidate · Fresh &amp; Authentic Credentials</span>
+              </div>
+              <h3 style="font-size: 1.6rem; margin-top: 14px; margin-bottom: 8px;">Aman Sharma — Flutter Developer</h3>
+              <p style="font-size: 0.94rem; color: var(--text-secondary); margin-bottom: 20px;">
+                Ready to contribute to mobile engineering teams with responsive Dart widget architecture, RESTful API integrations, and Firebase backend connectivity.
+              </p>
+
+              <div class="resume-highlight-grid">
+                <div class="resume-highlight-box">
+                  <div class="resume-highlight-label">Target Role</div>
+                  <div class="resume-highlight-val">Flutter Developer / Mobile App Engineer</div>
+                </div>
+                <div class="resume-highlight-box">
+                  <div class="resume-highlight-label">Experience</div>
+                  <div class="resume-highlight-val">Flutter Intern · Digi Coders Technologies</div>
+                </div>
+                <div class="resume-highlight-box">
+                  <div class="resume-highlight-label">Diploma CSE (2026)</div>
+                  <div class="resume-highlight-val">MMIT Kushinagar · 73.5% Aggregate</div>
+                </div>
+                <div class="resume-highlight-box">
+                  <div class="resume-highlight-label">Core Tech Stack</div>
+                  <div class="resume-highlight-val">Flutter · Dart · Firebase · REST APIs</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-actions-group">
+              <a href="assets/Aman_Sharma_CV.pdf" target="_blank" rel="noopener" class="btn btn-primary" title="View Aman Sharma CV in browser">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>View Resume (PDF)</span>
+              </a>
+
+              <a href="assets/Aman_Sharma_CV.pdf" download="Aman_Sharma_CV.pdf" class="btn btn-secondary" title="Download Aman Sharma CV">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-preview-panel">
+            <div class="resume-preview-header">
+              <span>📄 Document: Aman_Sharma_CV.pdf</span>
+              <span style="color: var(--accent-emerald);">Verified · 45 KB</span>
+            </div>
+            <div class="resume-preview-doc">
+              <div class="resume-preview-item">
+                <h5>Professional Summary</h5>
+                <p>Flutter Developer with internship experience crafting clean, responsive mobile apps using Flutter &amp; Dart. Skilled in reusable widgets, API integration, and Firebase.</p>
+              </div>
+              <div class="resume-preview-item">
+                <h5>Practical Experience</h5>
+                <p>6 Months Experience as Flutter Developer Intern at Digi Coders Technologies (reusable widgets, API handling, bug fixing &amp; UI performance) &amp; PHP Training.</p>
+              </div>
+              <div class="resume-preview-item">
+                <h5>Education</h5>
+                <p>Diploma in Computer Science &amp; Engineering — MMIT Kushinagar (2026, 73.5%) &amp; High School UP Board (2023, 83.5%).</p>
+              </div>
+              <div class="resume-preview-item">
+                <h5>Contact &amp; Profiles</h5>
+                <p>Lucknow, UP · amansharma97021@gmail.com · +91 95197 01963 · GitHub · LinkedIn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TIMELINE: EXPERIENCE & EDUCATION
+         ========================================================================== -->
+    <section class="section" id="experience" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-eyebrow">06 / Journey</div>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <p class="section-subtitle">My professional training, hands-on internships, and academic foundation.</p>
+
+        <div class="timeline-wrapper">
+          <!-- Item 1: Internship -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <span class="timeline-tag">Experience</span>
+                <span class="timeline-date">6 Months Internship</span>
+              </div>
+              <h3>Flutter Developer Intern (6 Months)</h3>
+              <p class="org-name">Digi Coders Technologies Pvt. Ltd.</p>
+              <ul>
+                <li>Completed 6 months of hands-on professional development building responsive mobile applications with Flutter &amp; Dart.</li>
+                <li>Developed modular, reusable UI widgets and integrated REST APIs with dynamic data flows.</li>
+                <li>Identified, debugged, and resolved application bugs to optimize overall app speed and responsiveness.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2: Diploma CSE -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" style="border-color: var(--accent-purple); box-shadow: 0 0 0 6px rgba(168, 85, 247, 0.2);"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <span class="timeline-tag" style="color: var(--accent-purple);">Education</span>
+                <span class="timeline-date">2026 · 73.5% Aggregate</span>
+              </div>
+              <h3>Diploma in Computer Science &amp; Engineering</h3>
+              <p class="org-name">Mahamaya IT Polytechnic, Kushinagar</p>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Comprehensive curriculum covering Object-Oriented Programming, Data Structures, Database Systems, Software Engineering, and Operating Systems.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: PHP Training -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" style="border-color: var(--accent-emerald); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.2);"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <span class="timeline-tag" style="color: var(--accent-emerald);">Certification</span>
+                <span class="timeline-date">June 2025 – July 2025</span>
+              </div>
+              <h3>PHP Summer Training</h3>
+              <p class="org-name">DigiCoders Technologies Pvt. Ltd.</p>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Hands-on training in server-side scripting, relational databases (MySQL), backend architecture, and request-response cycles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: High School -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node" style="border-color: var(--accent-amber); box-shadow: 0 0 0 6px rgba(245, 158, 11, 0.2);"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <span class="timeline-tag" style="color: var(--accent-amber);">Academics</span>
+                <span class="timeline-date">2023 · 83.5% First Class</span>
+              </div>
+              <h3>High School (UP Board)</h3>
+              <p class="org-name">Uttar Pradesh Secondary Education Board</p>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Strong foundation in Science, Mathematics, and Analytical Reasoning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CALL TO ACTION BANNER
+         ========================================================================== -->
+    <section class="section" style="padding-top: 40px; padding-bottom: 70px;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Let’s Build Something Amazing Together</h2>
+          <p>
+            Whether you have an internship opening, a junior Flutter developer role, or a mobile app idea to build — my inbox and WhatsApp are always open!
+          </p>
+          <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+            <a href="#contact" class="btn btn-primary">
+              <span>Send a Message</span>
+            </a>
+            <a href="https://wa.me/919519701963" target="_blank" rel="noopener" class="btn btn-secondary">
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section" id="contact" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-eyebrow">07 / Connect</div>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Feel free to reach out directly via email, WhatsApp, or through the direct communication form below.</p>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Info & Social Channels -->
+          <div class="contact-info-col reveal">
+            <!-- Email Item -->
+            <div class="contact-card-item">
+              <div class="contact-icon-box">✉️</div>
+              <div class="contact-details">
+                <h4>Email Address</h4>
+                <a href="mailto:amansharma97021@gmail.com">amansharma97021@gmail.com</a>
+                <button class="copy-btn-inline" onclick="copyText('amansharma97021@gmail.com', 'Email')" title="Copy primary email address">
+                  <span>Copy</span> 📋
+                </button>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+                  Alt: <a href="mailto:amansharma274502@gmail.com" style="color: var(--text-secondary);">amansharma274502@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- WhatsApp Item -->
+            <div class="contact-card-item">
+              <div class="contact-icon-box" style="color: #25d366; background: rgba(37, 211, 102, 0.12);">💬</div>
+              <div class="contact-details">
+                <h4>WhatsApp / Mobile</h4>
+                <a href="https://wa.me/919519701963" target="_blank" rel="noopener">+91 95197 01963</a>
+                <button class="copy-btn-inline" onclick="copyText('+919519701963', 'Phone number')" title="Copy phone number">
+                  <span>Copy</span> 📋
+                </button>
+              </div>
+            </div>
+
+            <!-- Location Item -->
+            <div class="contact-card-item">
+              <div class="contact-icon-box" style="color: var(--accent-purple); background: rgba(168, 85, 247, 0.12);">📍</div>
+              <div class="contact-details">
+                <h4>Current Location</h4>
+                <p style="margin: 0;">Aliganj, Lucknow, Uttar Pradesh<br><span style="font-size: 0.84rem; color: var(--text-muted);">Near Tedhi Pulia</span></p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Tedhi+Pulia+Aliganj+Lucknow" target="_blank" rel="noopener" style="color: var(--accent-blue); font-size: 0.85rem; font-weight: 600; display: inline-block; margin-top: 4px;">
+                  Open on Google Maps →
+                </a>
+              </div>
+            </div>
+
+            <!-- Social Media Grid -->
+            <div>
+              <h4 style="font-size: 0.95rem; margin-bottom: 12px; color: var(--text-primary);">Social &amp; Developer Profiles</h4>
+              <div class="social-buttons-grid">
+                <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="social-tile-btn s-github">
+                  <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                  <span>GitHub</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aman-sharma-85278b357" target="_blank" rel="noopener" class="social-tile-btn s-linkedin">
+                  <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  <span>LinkedIn</span>
+                </a>
+
+                <a href="https://wa.me/919519701963" target="_blank" rel="noopener" class="social-tile-btn s-whatsapp">
+                  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                  <span>WhatsApp</span>
+                </a>
+
+                <a href="https://www.instagram.com/its.me.amanpy" target="_blank" rel="noopener" class="social-tile-btn s-instagram">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.25" fill="currentColor"/></svg>
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Message Form -->
+          <div class="contact-form-card reveal">
+            <h3 style="font-size: 1.4rem; margin-bottom: 6px;">Send Me a Message</h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 22px;">
+              Fill in your details and choose to send directly via Email or instant WhatsApp chat.
+            </p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="form-name">Your Full Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. John Doe / Tech Recruiter" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Email Address</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. name@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message or Role Details</label>
+                <textarea id="form-message" class="form-textarea" rows="4" placeholder="Hi Aman, we loved your StudyMate app and want to discuss a Flutter developer opportunity..." required></textarea>
+              </div>
+
+              <div class="form-btn-actions">
+                <button type="submit" class="btn btn-primary">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  <span>Send via Email</span>
+                </button>
+
+                <button type="button" id="btn-whatsapp-send" class="btn btn-secondary">
+                  <span style="color: #25d366;">💬</span>
+                  <span>Send on WhatsApp</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-social-row">
+        <a href="https://github.com/amansharma1235" target="_blank" rel="noopener" class="footer-social-btn" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/aman-sharma-85278b357" target="_blank" rel="noopener" class="footer-social-btn" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://wa.me/919519701963" target="_blank" rel="noopener" class="footer-social-btn" title="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        Designed &amp; Developed with Flutter mindset by <strong>Aman Sharma</strong> · <span id="copyright-year">2026</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       IMAGE LIGHTBOX MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="lightbox-close" aria-label="Close image preview">✕</button>
+      <div class="modal-img-wrap">
+        <img src="" alt="" id="lightbox-img">
+      </div>
+      <div class="modal-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top-btn" id="back-to-top" aria-label="Scroll back to top" title="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
